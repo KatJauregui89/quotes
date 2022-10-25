@@ -17,7 +17,7 @@ body{
 }
 
 .card{
-  width: 500px;
+  width: 550px;
   height: 250px;
   border: 1px solid black;
   background-color: whitesmoke;
@@ -29,22 +29,33 @@ body{
   gap: 1rem;
 }
 
+.quoteCard{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: calc(550px - 2rem);
+  gap: 1rem;
+  padding-right: 2rem;
+}
+
 .btn{
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border-style: none;
   /* background-color: rgb(252, 250, 148); */
-  margin-left: 23rem;
-  margin-top: 2.5rem;
+  margin-left: 27rem;
+  margin-top: 1.5rem;
 }
 
 span.author{
   font-weight: bold;
-  text-align: right;
+  align-self: flex-end;
   font-style: italic;
 }
 
 .fa-quote-left{
   font-size: 3rem;
+  align-self: flex-start;
 }

@@ -13,7 +13,7 @@ function App() {
     setIndexNum(randomNum)
   }
 
-  const colors = ['darkcyan', 'lightgreen', 'black', 'lightskyblue', 'lightcoral']
+  const colors = ['darkcyan', 'lightgreen', 'darkgray', 'lightskyblue', 'lightcoral']
   let randomColorIndex = Math.floor(Math.random() * colors.length)
   let randomColor = colors[randomColorIndex]
 
