@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <div className="card">
         <QuoteBox indexNum={indexNum} randomColor={randomColor} />
-        <NextBtn randomQuote={randomQuote} />
+        <NextBtn randomQuote={randomQuote} randomColor={randomColor} />
       </div>
     </div>
   )

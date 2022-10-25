@@ -34,14 +34,15 @@ body{
   height: 50px;
   border-radius: 50%;
   border-style: none;
-  background-color: rgb(252, 250, 148);
+  /* background-color: rgb(252, 250, 148); */
   margin-left: 23rem;
   margin-top: 2.5rem;
 }
 
-.author{
+span.author{
   font-weight: bold;
   text-align: right;
+  font-style: italic;
 }
 
 .fa-quote-left{
