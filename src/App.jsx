@@ -13,17 +13,17 @@ function App() {
     setIndexNum(randomNum)
   }
 
-  const colors = ['lightyellow', 'lightgreen', 'lavenderblush', 'lightskyblue', 'lightcoral']
+  const colors = ['darkcyan', 'lightgreen', 'black', 'lightskyblue', 'lightcoral']
   let randomColorIndex = Math.floor(Math.random() * colors.length)
   let randomColor = colors[randomColorIndex]
 
   document.body.style = `background: ${randomColor}`
-  console.log(indexNum);
+
 
   return (
     <div className="App">
       <div className="card">
-        <QuoteBox indexNum={indexNum} />
+        <QuoteBox indexNum={indexNum} randomColor={randomColor} />
         <NextBtn randomQuote={randomQuote} />
       </div>
     </div>

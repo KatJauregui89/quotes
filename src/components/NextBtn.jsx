@@ -3,14 +3,6 @@ import quotes from '../quotes.json'
 
 const NextBtn = ({ randomQuote }) => {
 
-    // let randomNum = Math.floor(Math.random() * quotes.length)
-    // const [indexNum, setIndexNum] = useState(randomNum)
-
-    // const changeIndex = () => {
-    //     let random = Math.floor(Math.random() * quotes.length)
-    //     setIndexNum(random)
-    // }
-
 
     return (
         <div>

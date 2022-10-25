@@ -38,3 +38,12 @@ body{
   margin-left: 23rem;
   margin-top: 2.5rem;
 }
+
+.author{
+  font-weight: bold;
+  text-align: right;
+}
+
+.fa-quote-left{
+  font-size: 3rem;
+}
