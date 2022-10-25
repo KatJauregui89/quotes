@@ -7,6 +7,7 @@ import NextBtn from './components/NextBtn'
 function App() {
   let randomNum = Math.floor(Math.random() * quotes.length)
   const [indexNum, setIndexNum] = useState(randomNum)
+
   const randomQuote = () => {
     let randomNum = Math.floor(Math.random() * quotes.length)
     setIndexNum(randomNum)
@@ -17,13 +18,14 @@ function App() {
   let randomColor = colors[randomColorIndex]
 
   document.body.style = `background: ${randomColor}`
+  console.log(indexNum);
 
   return (
     <div className="App">
-
-      <QuoteBox index={indexNum} />
-      {/* <NextBtn randomQuote={randomQuote} /> */}
-
+      <div className="card">
+        <QuoteBox indexNum={indexNum} />
+        <NextBtn randomQuote={randomQuote} />
+      </div>
     </div>
   )
 }
